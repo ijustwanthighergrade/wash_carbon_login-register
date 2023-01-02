@@ -9,30 +9,25 @@
 </head>
 <body>
     <div class="top">
-        <p class="title_text">登入</p>
+        <p class="title_text">簡訊認證</p>
     </div>
     <form action="">
         <div class="input_frame">
-                <input class="inputa" type="text" name="acc" placeholder="請輸入帳號" value="">
+                <input class="inputb" type="text" name="" placeholder="請輸入手機號碼" value="">
+                <input type="button" class="mesbtn" value="取得驗證碼" onclick="javascript:location.href=''">
         </div>
         <div class="input_frame">
-                <input class="inputa" type="text" name="pwd" placeholder="請輸入密碼" value="">
+                <input class="inputa" type="text" name="" placeholder="請輸入驗證碼" value="">
         </div>
         <div class="input_frame">
             <div class="signup_frame">
-                <input type="submit" class="signup signup_right" value="登入">
+                <input type="button" class="signup signup_right" value="返回" onclick="history.back()">
             </div>
             <div class="signup_frame">
-                <input type="button" class="signup" value="註冊" onclick="javascript:window.location.href='register.html'">
+                <input type="submit" class="signup" value="送出">
             </div>
         </div>
         
-        <div class="input_frame">
-            <a href="" class="LINE"> LINE </a>
-        </div>
-        <div class="input_frame">
-            <a href="" class="msg"> 簡訊驗證 </a>
-        </div>
     </form>
 </body>
 </html>
